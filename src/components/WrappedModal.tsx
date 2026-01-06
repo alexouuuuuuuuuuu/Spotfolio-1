@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { X } from 'lucide-react';
+import wrappedImage from '/assets/wrapped2025.png';
 
 interface WrappedModalProps {
   isOpen: boolean;
@@ -34,7 +35,7 @@ export function WrappedModal({ isOpen, onClose }: WrappedModalProps) {
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            src="/assets/wrapped2025.png"
+            src={wrappedImage}
             alt="Wrapped 2025"
             className="max-w-full max-h-full object-contain rounded-lg"
             onClick={(e) => e.stopPropagation()}
