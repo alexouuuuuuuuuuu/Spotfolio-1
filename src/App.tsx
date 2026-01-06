@@ -16,9 +16,6 @@ import { WelcomeBanner } from './components/WelcomeBanner';
 import { MobileNav } from './components/MobileNav';
 import { projects, playlists } from './data/projects';
 import { Project } from './types';
-import cvImage from 'figma:asset/8f9c5ab34cbc0b9011d4a72b492678ee5339678c.png';
-import profileImage from 'figma:asset/b616688c016d773b2e9df76cb2dc3cc7a57ff4f2.png';
-import aboutProfileImage from 'figma:asset/fe0934ed9587eeb25eb91a5b7a8cc9e110872cd6.png';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -166,7 +163,7 @@ export default function App() {
               onClick={() => setActiveView('about')}
               className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white flex-shrink-0 cursor-pointer"
             >
-              <img src={profileImage} alt="Profile" className="w-8 h-8 rounded-full object-cover" />
+              <img src="public/assets/logo.png" alt="Profile" className="w-8 h-8 rounded-full object-cover" />
             </motion.button>
 
             {/* Filter Pills */}
@@ -268,7 +265,7 @@ export default function App() {
         >
           <div className="mb-8 flex flex-col md:flex-row items-start md:items-center gap-6">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center flex-shrink-0">
-              <img src={aboutProfileImage} alt="Alexis MAUGAIN" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover" />
+              <img src="public/assets/moi.png" alt="Alexis MAUGAIN" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover" />
             </div>
             <div>
               <h1 className="text-white mb-4 text-[32px] md:text-[40px]">Alexis MAUGAIN</h1>
@@ -303,7 +300,7 @@ export default function App() {
             {/* Télécharger le CV */}
             <div className="mt-12 pt-8 border-t border-neutral-800">
               <a
-                href={cvImage}
+                href="public/assets/CV_Alexis_Maugain.png"
                 download="CV_Alexis_Maugain.png"
                 className="inline-flex items-center gap-3 px-6 py-4 bg-green-500 hover:bg-green-600 text-white rounded-full transition-colors group"
               >
