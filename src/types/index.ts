@@ -9,7 +9,6 @@ export interface Project {
   description: string;
   problem: string;
   process: string;
-  result: string;
   color: string;
 }
 

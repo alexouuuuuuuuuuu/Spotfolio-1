@@ -327,7 +327,7 @@ export default function App() {
 
           <div className="space-y-6">
             <a
-              href="mailto:hello@portfolio.com"
+              href="mailto:alexis.maugain@gmail.com"
               className="flex items-center gap-4 p-6 bg-neutral-900 hover:bg-neutral-800 rounded-lg transition-colors group"
             >
               <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center group-hover:bg-green-500/30 transition-colors">
@@ -335,12 +335,12 @@ export default function App() {
               </div>
               <div>
                 <p className="text-white">Email</p>
-                <p className="text-neutral-400">hello@portfolio.com</p>
+                <p className="text-neutral-400">alexis.maugain@gmail.com</p>
               </div>
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/alexouuuuuuuuuuu"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-6 bg-neutral-900 hover:bg-neutral-800 rounded-lg transition-colors group"
@@ -350,12 +350,12 @@ export default function App() {
               </div>
               <div>
                 <p className="text-white">GitHub</p>
-                <p className="text-neutral-400">@portfolio</p>
+                <p className="text-neutral-400">@alexouuuuuuuuuuu</p>
               </div>
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/alexis-maugain"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-6 bg-neutral-900 hover:bg-neutral-800 rounded-lg transition-colors group"
@@ -365,7 +365,7 @@ export default function App() {
               </div>
               <div>
                 <p className="text-white">LinkedIn</p>
-                <p className="text-neutral-400">@portfolio</p>
+                <p className="text-neutral-400">@alexis-maugain</p>
               </div>
             </a>
 
@@ -375,7 +375,7 @@ export default function App() {
               </div>
               <div>
                 <p className="text-white">Localisation</p>
-                <p className="text-neutral-400">Paris, France</p>
+                <p className="text-neutral-400">Nantes - Limoges, France</p>
               </div>
             </div>
           </div>
