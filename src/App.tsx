@@ -128,7 +128,7 @@ export default function App() {
       const recentProjects = [...projects].slice(0, 6);
       const trendingProjects = [projects[1], projects[0], projects[3], projects[2], projects[4], projects[5]];
       const topProjects = [...projects].sort((a, b) => b.id.localeCompare(a.id)).slice(0, 6);
-      const uiuxProjects = projects.filter(p => p.category.includes('UI/UX'));
+      const uiuxProjects = projects.filter(p => p.category.includes('UI/UX')).slice(0, 6);
 
       const playlistsData = [
         { id: 'all', title: 'Tous les singles', gradient: '#EC4899, #8B5CF6', cover: projects[4]?.cover },
@@ -289,7 +289,7 @@ export default function App() {
             <div className="mt-12 pt-8 border-t border-neutral-800">
               <h2 className="text-white mb-6">Compétences</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {['UI/UX Design', 'React & Next.js', 'Figma', 'Motion Design', 'TypeScript', 'Design Systems', 'Prototypage', 'Three.js', 'User Research'].map((skill) => (
+                {['Design graphique', 'Web design', 'Gestion de projet', 'Communication', 'Développement', 'Audiovisuel'].map((skill) => (
                   <div key={skill} className="bg-neutral-900 rounded-lg px-4 py-3 text-center">
                     {skill}
                   </div>
@@ -438,6 +438,20 @@ export default function App() {
     // Scroll to top when changing views
     window.scrollTo(0, 0);
   }, [activeView]);
+
+  useEffect(() => {
+    // Handle spacebar to play/pause
+    const handleKeyPress = (e: KeyboardEvent) => {
+      if (e.code === 'Space' && currentProject) {
+        // Prevent scrolling when spacebar is pressed
+        e.preventDefault();
+        handleTogglePlay();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [currentProject, handleTogglePlay]);
 
   return (
     <div className="min-h-screen bg-black">

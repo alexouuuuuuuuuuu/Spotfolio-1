@@ -20,7 +20,7 @@ export const projects: Project[] = [
   {
     id: '2',
     title: 'Livre de cuisine',
-    category: 'Web Development',
+    category: 'Print Design',
     cover: './assets/projets/livre-recette.png',
     images: [
       'https://images.unsplash.com/photo-1495521821757-a1efb6729352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWNpcGUlMjBjb29raW5nJTIwYm9va3xlbnwxfHx8fDE3NjU5NjExNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     ],
     role: 'Product Designer',
     tools: ['Figma', 'GSAP', 'HTML', 'CSS', 'JAVASCRIPT'],
-    description: 'Design d\'une application mobile de coaching fitness personnalisé avec suivi de progression et gamification.',
+    description: '',
     problem: '',
     process: '',
     color: '#EC4899'
@@ -102,6 +102,113 @@ export const projects: Project[] = [
     problem: '',
     process: '',
     color: '#8B5CF6'
+  },
+  {
+    id: '7',
+    title: 'Concevoir des visualisations de données pour le web',
+    category: 'UI/UX Design',
+    cover: './assets/projets/data-visualisation.png',
+    images: [
+      'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjBjb21wb25lbnRzfGVufDF8fHx8MTc2NTg3MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1602221527282-dabc4778535b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGtpdCUyMGxpYnJhcnl8ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1605606582336-96bec3c882e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1642261366979-704a073bef4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0b2tlbnMlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY1OTYxODc2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    ],
+    role: 'UI/UX Designer',
+    tools: ['Figma', 'HTML', 'CSS', 'GSAP', 'Lottie'],
+    description: 'Dans le cadre d\'une collaboration avec OpenData University, nous avez été sollicités pour créer un ensemble de supports numériques en groupe de trois visant à informer et sensibiliser le public sur un des thèmes liés à la culture.',
+    problem: '',
+    process: '',
+    color: '#3B82F6'
+  },
+  {
+    id: '8',
+    title: 'Concept d\'application mobile',
+    category: 'UI/UX Design',
+    cover: './assets/projets/pokeduel.png',
+    images: [
+      'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjBjb21wb25lbnRzfGVufDF8fHx8MTc2NTg3MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1602221527282-dabc4778535b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGtpdCUyMGxpYnJhcnl8ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1605606582336-96bec3c882e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1642261366979-704a073bef4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0b2tlbnMlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY1OTYxODc2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    ],
+    role: 'UI/UX Designer',
+    tools: ['Figma'],
+    description: '',
+    problem: '',
+    process: '',
+    color: '#059669'
+  },
+  {
+    id: '9',
+    title: 'Identité Visuelle Startup',
+    category: 'UI/UX Design',
+    cover: './assets/projets/glow-pong.png',
+    images: [
+      'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjBjb21wb25lbnRzfGVufDF8fHx8MTc2NTg3MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1602221527282-dabc4778535b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGtpdCUyMGxpYnJhcnl8ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1605606582336-96bec3c882e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1642261366979-704a073bef4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0b2tlbnMlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY1OTYxODc2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    ],
+    role: 'UI/UX Designer',
+    tools: ['Figma', 'Adobe Illustrator', 'Adobe Photoshop'],
+    description: 'Création d\'une identité visuelle complète pour une startup innovante. Le projet englobait la conception du logo, le choix de la typographie, la définition de la palette de couleurs et la création d\'un guide de style. J\'ai également développé des supports de communication print et digital.',
+    problem: '',
+    process: '',
+    color: '#fceb2aff'
+  },
+  {
+    id: '10',
+    title: 'One page pour Olive Oil',
+    category: 'UI/UX Design',
+    cover: './assets/projets/olive-oil.png',
+    images: [
+      'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjBjb21wb25lbnRzfGVufDF8fHx8MTc2NTg3MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1602221527282-dabc4778535b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGtpdCUyMGxpYnJhcnl8ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1605606582336-96bec3c882e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1642261366979-704a073bef4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0b2tlbnMlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY1OTYxODc2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    ],
+    role: 'UI/UX Designer',
+    tools: ['Figma'],
+    description: 'Olive Oil, marque d\'huile d\'olive 100 % italienne, lance sa nouvelle huile premium avec des ingrédients haut de gamme. Pour accompagner ce lancement, ils souhaitent créer un site internet reflétant leur encrage territorial ainsi que l\'univers prestigieux de la marque, destiné à une clientèle exigeante. Le design du site devra être élégant, moderne et raffiné, tout en respectant l\'identité visuelle existante (couleurs, typographie, logo).Le contenu présentera de manière claire et originale la marque, ses valeurs et son produit. L\'expérience utilisateur devra inciter à l’achat, tout en véhiculant une ambiance exclusive et sophistiquée.',
+    problem: '',
+    process: '',
+    color: '#ff1fe5ff'
+  },
+  {
+    id: '11',
+    title: 'vr',
+    category: 'Developpement Web & 3D',
+    cover: './assets/projets/vr.png',
+    images: [
+      'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjBjb21wb25lbnRzfGVufDF8fHx8MTc2NTg3MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1602221527282-dabc4778535b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGtpdCUyMGxpYnJhcnl8ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1605606582336-96bec3c882e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    ],
+    role: '',
+    tools: ['HTML', 'A-Frame', 'Poly.pizza', 'Sketchfab'],
+    description: 'Il nous a été demandé de concevoir une expérience de réalité virtuelle accessible via un navigateur web dans le style graphique d\'un artiste. Le projet visait à démontrer les possibilités offertes par la VR sur le web.',
+    problem: '',
+    process: '',
+    color: '#d53d3dff'
+  },
+  {
+    id: '12',
+    title: 'Créer pour une campagne de communication visuelle',
+    category: 'UI/UX Design',
+    cover: './assets/projets/digital-cleanup.png',
+    images: [
+      'https://images.unsplash.com/photo-1698440050363-1697e5f0277c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjBjb21wb25lbnRzfGVufDF8fHx8MTc2NTg3MTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1602221527282-dabc4778535b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGtpdCUyMGxpYnJhcnl8ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1605606582336-96bec3c882e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbnRlcnByaXNlJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://images.unsplash.com/photo-1642261366979-704a073bef4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjB0b2tlbnMlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY1OTYxODc2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    ],
+    role: 'UI/UX Designer',
+    tools: ['Figma', 'Adobe Illustrator', 'Adobe Photoshop'],
+    description: 'Le prochain événement du Digital Clean Up aura lieu le 25 mars 2025. Pour l\'occasion, l\'organisation souhaite cibler les moins de 25 ans. Il nous a donc été demandé de promouvoir cette action.',
+    problem: '',
+    process: '',
+    color: '#3aa217ff'
   }
 ];
 
@@ -110,24 +217,24 @@ export const playlists: Playlist[] = [
     id: 'top-france',
     name: 'Top France',
     icon: 'trophy',
-    projects: ['1', '2', '3', '4', '5', '6']
+    projects: ['1', '3', '4', '6']
   },
   {
     id: 'ui-ux',
     name: 'UX/UI Design',
     icon: 'palette',
-    projects: ['1', '4', '6']
+    projects: ['1', '3', '5', '6','7', '8', '9', '10', '12']
   },
   {
     id: 'web',
     name: 'Web',
     icon: 'code',
-    projects: ['2', '5']
+    projects: ['1', '2', '3', '4', '5', '7', '11']
   },
   {
     id: 'motion',
     name: 'Motion & 3D',
     icon: 'film',
-    projects: ['3', '5']
+    projects: ['3', '11', '12']
   }
 ];
