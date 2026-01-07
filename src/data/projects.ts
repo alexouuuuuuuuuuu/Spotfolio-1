@@ -6,7 +6,7 @@ export const projects: Project[] = [
     id: '1',
     title: 'Redesign E-commerce Mobile',
     category: 'UI/UX Design',
-    cover: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop',
+    cover: './assets/projets/danniel-wellington.png',
     images: [
       'https://images.unsplash.com/photo-1742836531239-1fe146bf7e3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBtb2JpbGUlMjBkZXNpZ258ZW58MXx8fHwxNzY1OTYxODY3fDA&ixlib=rb-4.1.0&q=80&w=1080',
       'https://images.unsplash.com/photo-1758526213756-9aecbea6bcfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZyUyMGFwcHxlbnwxfHx8fDE3NjU5NjE4Njh8MA&ixlib=rb-4.1.0&q=80&w=1080',
